@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <script>
+
+            function localVarDemo()
+            {
+                console.log("Value if local function:"+a)
+            }
+            function test()
+            {
+                var a=20;
+                console.log("value of a in test function is:"+a)
+            }
+            try{
+            
+            localVarDemo()
+            test()
+            localVarDemo()
+            }
+            catch(e){
+                alert("a is not defined")
+            }
+        </script>
+    </body>
+</html>
